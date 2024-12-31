@@ -19,6 +19,5 @@ s.extend(list(s4))
 # random.shuffle(s)
 # print(s)
 print("Your password is: ")
-print("".join(random.sample(s, plen)))
-# print("".join(s[0:plen]))
+print("".join(s[0:plen]))
 
