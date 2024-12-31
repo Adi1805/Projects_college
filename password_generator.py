@@ -9,7 +9,7 @@ s3 = string.digits
 # print(s3)
 s4 = string.punctuation
 # print(s4)
-plen = int(input("Enter password length\n")) #Todo1: Handle Gibberish
+plen = int(input("Enter password length")) 
 s = []
 s.extend(list(s1))
 s.extend(list(s2))
